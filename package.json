@@ -1,0 +1,14 @@
+{
+  "name": "loom-js-compile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Clay <38572212+mlclay@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "loom-js": "1.75.0",
+    "typescript": "3.2.4"
+  },
+  "scripts": {
+    "compile": "rm -rf ./dist && tsc"
+  }
+}
